@@ -95,14 +95,14 @@ In order to use the playbook, you will need to have an Ansible control node alre
 SSH into the control node and follow the steps below:
 
 - Copy the install-elk.yml to the /etc/ansible/ directory inside the ansible container.
-- $ sudo docker cp install-elk.yml
+  - $ sudo docker cp install-elk.yml
     <NameOfContainer>:/etc/ansible/install-elk.yml
 
 - Update the /etc/ansible/hosts file to include the ELK VM's IP Address
 
 - Run the playbook, and navigate to http://[Insert-Your-VM-IP]:5601/app/kibana. to check that the installation worked as expected.
 
-- $ ansible-playbook /etc/ansible/install-elk.yml
+  - $ ansible-playbook /etc/ansible/install-elk.yml
 - Check that the Elk playbook is working by accessing Kibana from a web browser and you should see the below image.
 
 ![Images/WelcomeKibana.png](Images/WelcomeKibana.png)
