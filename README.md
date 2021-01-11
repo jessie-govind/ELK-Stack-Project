@@ -73,7 +73,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![TODO: Update the path with the name of your screenshot of docker ps output](Images/docker_ps_output.png)
+![Images/DockerPsOutput.png](/Images/DockerPsOutput.png)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
@@ -105,7 +105,7 @@ SSH into the control node and follow the steps below:
 - $ ansible-playbook /etc/ansible/install-elk.yml
 - Check that the Elk playbook is working by accessing Kibana from a web browser and you should see the below image.
 
-![TODO: Update the path with the name of your screenshot of Kibana output](Images/docker_ps_output.png)
+![Images/WelcomeKibana.png](Images/WelcomeKibana.png)
 
 
 _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
